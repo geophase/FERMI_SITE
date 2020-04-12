@@ -16,7 +16,7 @@ $query = "SELECT * FROM fermi WHERE id=".$id;
 $res = $mysqli->query($query);
 if($res->num_rows == 1){
   $data = array();
-  while($row = $res->fetch_array(MYSQL_ASSOC)) {
+   while($row = $res->fetch_assoc()) {
         $data[] = $row;
     }
   	return $data;

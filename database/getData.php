@@ -16,7 +16,7 @@ $mysqli->set_charset("utf8");
 require 'filters.php';
 $res = $mysqli->query($query);
 $data = array();
-while($row = $res->fetch_array(MYSQL_ASSOC)) {
+ while($row = $res->fetch_assoc()) {
         $decode = array();
         $decode["id"] = $row["id"];
         $decode["name"] = $row["name"];

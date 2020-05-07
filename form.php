@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is coming from a form
     
     $host = "localhost";
     $user = "root";
-    $psw = "1613";
-    $db = "fermidatabase";
+    $psw = "";
+    $db = "database";
 
     //Connect to the MySQL server
     $conn = mysqli_connect($host ,$user,$psw,$db);

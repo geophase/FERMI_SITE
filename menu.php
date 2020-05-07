@@ -16,6 +16,9 @@ echo '<nav class="custom1" role="navigation">
                 <a href="promotion.php" >'. $lang['MENU_PROMOTION'] .'</a>
             </li>
             <li>
+                <a href="contribution.php" >'. $lang['MENU_CONTRIBUTION'].' </a>
+            </li>
+            <li>
                 <a href="http://www.ai-sf.it" > AISF </a>
             </li>
         </ul>
